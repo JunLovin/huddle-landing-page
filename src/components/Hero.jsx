@@ -14,7 +14,7 @@ function Hero() {
                     </div>
                 </div>
                 <div className="hero-button mx-auto">
-                    <button className="bg-pink-400 text-white w-max px-20 py-5 rounded-full shadow-2xl cursor-pointer font-bold">Get Started For Free</button>
+                    <button className="bg-pink-400 text-white w-max px-20 py-5 rounded-full shadow-2xl cursor-pointer font-bold hover:-translate-y-1 transition-all duration-200 active:translate-y-1">Get Started For Free</button>
                 </div>
                 <div className="Mockup mt-20 mx-auto">
                     <img src={Mockup} alt="" className="w-max" />
