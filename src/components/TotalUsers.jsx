@@ -4,7 +4,7 @@ import Messages from '@public/images/icon-messages.svg'
 function TotalUsers() { 
     return (
         <>
-        <div className="total-users w-full h-[30dvh] flex justify-center items-center mb-50">
+        <div className="total-users w-full h-[30dvh] flex justify-center items-center mb-50 max-2xl:mt-90 max-2xl:mb-0">
             <div className="total-users-container w-full flex justify-around items-center">
                 <div className="community">
                     <img src={Community} alt="" className="mb-4" />

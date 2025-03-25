@@ -7,7 +7,7 @@ function Hero() {
             <div className="hero-container flex flex-col justify-center gap-8">
                 <div className="hero-text flex flex-col gap-3">
                     <div className="hero-text-header text-center">
-                        <h1 className="font-poppins font-extrabold text-6xl leading-normal">Build The Community Your Fans Will Love</h1>
+                        <h1 className="font-poppins font-extrabold text-6xl leading-normal max-2xl:text-5xl max-2xl:mt-70">Build The Community Your Fans Will Love</h1>
                     </div>
                     <div className="hero-text-paragraph text-center">
                         <p className="font-open-sans w-[50ch] leading-normal mx-auto">Huddle re-imagines the way we build communities. You have a voice, but so does your audience. Create connections with your users as you engage in genuine discussion.</p>
