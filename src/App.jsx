@@ -5,6 +5,7 @@ import GrowTogether from '@components/GrowTogether'
 import FlowingConversations from '@components/FlowingConversations'
 import YourUsers from '@components/YourUsers'
 import Question from '@components/Question'
+import Footer from '@components/Footer'
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
     <FlowingConversations />
     <YourUsers />
     <Question />
+    <Footer />
     </>
   )
 }
