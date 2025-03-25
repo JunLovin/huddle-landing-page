@@ -5,7 +5,7 @@ function YourUsers() {
         <>
         <div className="w-full bg-white mt-90">
             <svg 
-                width="120%" 
+                width="100%" 
                 height="155" 
                 xmlns="http://www.w3.org/2000/svg" 
                 xmlnsXlink="http://www.w3.org/1999/xlink" 
@@ -22,21 +22,20 @@ function YourUsers() {
                 </g>
             </svg>
         </div>
-        <div className="grow-top w-full relative bg-[#f5faff]">
-            <div className="grow h-[50dvh] w-full relative">
-                <div className="grow-container w-full h-full flex justify-around items-center">
-                    <div className="grow-left flex flex-col gap-7 h-full justify-center">
-                        <h2 className="font-poppins font-extrabold text-5xl">Your Users</h2>
-                        <p className="max-w-[60ch] font-open-sans font-medium">It takes no time at all to integrate Huddle with your app's authentication solution. This means, once signed in to your app, your users can start chatting immediately.</p>
+            <div className="grow bg-[#f5faff] w-full relative py-16">
+                <div className="grow-container w-full h-full flex justify-around items-center max-xl:flex-col max-xl:text-center max-xl:gap-10 px-6">
+                    <div className="grow-right max-xl:mb-8 max-w-md mx-auto">
+                        <img src={Users} alt="" className="w-full h-auto"/>
                     </div>
-                    <div className="grow-right h-full flex justify-center items-center">
-                        <img src={Users} alt=""  className="w-full h-full"/>
+                    <div className="grow-left flex flex-col gap-5 max-w-md mx-auto">
+                        <h2 className="font-poppins font-extrabold text-5xl max-xl:text-center max-[480px]:text-4xl">Your Users</h2>
+                        <p className="font-open-sans max-xl:text-center">It takes no time at all to integrate Huddle with your app's authentication solution. This means, once signed in to your app, your users can start chatting immediately.</p>
                     </div>
                 </div>
             </div>
             <div className="w-full bg-white rotate-180">
             <svg 
-                width="120%" 
+                width="100%" 
                 height="155" 
                 xmlns="http://www.w3.org/2000/svg" 
                 xmlnsXlink="http://www.w3.org/1999/xlink" 
@@ -52,7 +51,6 @@ function YourUsers() {
                     </g>
                 </g>
             </svg>
-        </div>
         </div>
         </>
     )
