@@ -3,7 +3,7 @@ import Users from '@public/images/illustration-your-users.svg'
 function YourUsers() {
     return (
         <>
-        <div className="w-full bg-white mt-90">
+        <div className="w-full bg-white mt-20">
             <svg 
                 width="100%" 
                 height="155" 
