@@ -24,11 +24,11 @@ Users should be able to:
 
 ### Screenshot
 
-![Screenshot](./screenshot.jpg)
+![Screenshot](./public/design/Screenshot.png)
 
 ### Links
 
-- Live Site URL: [Huddle](https://your-live-site-url.com)
+- Live Site URL: [Huddle](https://huddle-landing-page-psi-six.vercel.app/)
 
 ### Built with
 
