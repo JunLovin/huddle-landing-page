@@ -13,7 +13,7 @@ function Header() {
                 <img src={Logo} alt="Huddle" className="cursor-pointer" onClick={handleHome}/>
             </div>
             <div className="header-right">
-                <button className="border-pink-400 rounded-full w-max border-2 px-8 py-2 text-[18px] text-pink-400 cursor-pointer hover:border-pink-300 hover:text-pink-500 transition-colors duration-200 font-poppins">Try it Free</button>
+                <button className="border-pink-400 rounded-full w-max border-2 px-8 py-2 text-[18px] text-pink-400 cursor-pointer hover:border-pink-300 hover:text-pink-500 transition-all duration-200 font-poppins hover:shadow-xl hover:shadow-pink-300">Try it Free</button>
             </div>
         </header>
         </>
