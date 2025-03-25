@@ -23,7 +23,7 @@ function GrowTogether() {
             </svg>
         </div>
             <div className="grow bg-[#f5faff] w-full relative py-16">
-                <div className="grow-container w-full h-full flex justify-around items-center max-xl:flex-col max-xl:text-center max-xl:gap-10 px-6">
+                <div className="grow-container w-full h-full flex flex-row-reverse justify-around items-center max-xl:flex-col max-xl:text-center max-xl:gap-10 px-6">
                     <div className="grow-right max-xl:mb-8 max-w-md mx-auto">
                         <img src={Grow} alt="" className="w-full h-auto"/>
                     </div>
