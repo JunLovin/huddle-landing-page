@@ -3,7 +3,7 @@ import Grow from '@public/images/illustration-grow-together.svg'
 function GrowTogether() {
     return (
         <>
-        <div className="w-full bg-white mt-20">
+        <div className="w-full bg-white mt-20 max-sm:w-[150%]">
             <svg 
                 width="100%" 
                 height="155" 
@@ -33,7 +33,7 @@ function GrowTogether() {
                     </div>
                 </div>
             </div>
-            <div className="w-full bg-white rotate-180">
+            <div className="w-full bg-white rotate-180 max-sm:w-[150%]">
             <svg 
                 width="100%" 
                 height="155" 

@@ -27,7 +27,7 @@ function Footer() {
 
     return (
         <>
-        <div className="w-full bg-white overflow-hidden">
+        <div className="w-full bg-white overflow-hidden max-sm:w-[150%]">
             <svg 
                 width="100%" 
                 height="155" 
@@ -75,10 +75,10 @@ function Footer() {
                     <input type="text" id="email" name="email" placeholder="example@domain.com" className="bg-white px-4 py-2 rounded-xl outline-none text-black w-full border-2 border-curent" onChange={handleEmail} ref={inputRef} onKeyDown={handleEnter} />
                     {error && (
                         <>
-                        <label htmlFor="email" className="text-red-400 absolute -bottom-8 left-2 font-semibold max-lg:left-0 max-lg:top-12">Check your email please</label>
+                        <label htmlFor="email" className="text-red-400 max-[30rem]:text-[12px] absolute -bottom-8 left-2 font-semibold max-lg:left-0 max-lg:top-12">Check your email please</label>
                         </>
                     )}
-                    <button className="bg-pink-400 text-white w-max px-10 py-3 rounded-xl shadow-2xl cursor-pointer font-bold active:bg-pink-500 transition-all duration-200 max-lg:mt-4" onClick={checkEmail}>Subscribe</button>
+                    <button className="bg-pink-400 text-white w-max px-10 py-3 rounded-xl shadow-2xl cursor-pointer font-bold active:bg-pink-500 transition-all duration-200 max-lg:mt-4 max-[30rem]:mt-2" onClick={checkEmail}>Subscribe</button>
                 </div>
             </div>
         </footer>

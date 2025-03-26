@@ -3,7 +3,7 @@ import Users from '@public/images/illustration-your-users.svg'
 function YourUsers() {
     return (
         <>
-        <div className="w-full bg-white mt-20">
+        <div className="w-full bg-white mt-20 max-sm:w-[150%]">
             <svg 
                 width="100%" 
                 height="155" 
@@ -33,7 +33,7 @@ function YourUsers() {
                     </div>
                 </div>
             </div>
-            <div className="w-full bg-white rotate-180">
+            <div className="w-full bg-white rotate-180 max-sm:w-[150%]">
             <svg 
                 width="100%" 
                 height="155" 
